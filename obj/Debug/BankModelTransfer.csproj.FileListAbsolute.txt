@@ -1,0 +1,7 @@
+C:\Users\antonio.fonseca\source\repos\BankModelTransfer\bin\Debug\BankModelTransfer.exe.config
+C:\Users\antonio.fonseca\source\repos\BankModelTransfer\bin\Debug\BankModelTransfer.exe
+C:\Users\antonio.fonseca\source\repos\BankModelTransfer\bin\Debug\BankModelTransfer.pdb
+C:\Users\antonio.fonseca\source\repos\BankModelTransfer\obj\Debug\BankModelTransfer.csproj.AssemblyReference.cache
+C:\Users\antonio.fonseca\source\repos\BankModelTransfer\obj\Debug\BankModelTransfer.csproj.CoreCompileInputs.cache
+C:\Users\antonio.fonseca\source\repos\BankModelTransfer\obj\Debug\BankModelTransfer.exe
+C:\Users\antonio.fonseca\source\repos\BankModelTransfer\obj\Debug\BankModelTransfer.pdb
