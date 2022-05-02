@@ -5,13 +5,11 @@ namespace BankModelTransfer.Mapping
 {
     public class Conta
 	{
-		// Atributos
 		public TipoConta TipoConta { get; set; }
 		public double Saldo { get; set; }
 		public double Credito { get; set; }
 		public string Nome { get; set; }
 
-		// Métodos
 		public Conta(TipoConta tipoConta, double saldo, double credito, string nome)
 		{
 			this.TipoConta = tipoConta;
@@ -22,7 +20,6 @@ namespace BankModelTransfer.Mapping
 
 		public bool Sacar(double valorSaque)
 		{
-			// Validação de saldo suficiente
 			if (this.Saldo - valorSaque < (this.Credito * -1))
 			{
 				Console.WriteLine("Saldo insuficiente! Verifique seu saldo disponível!");

@@ -2,7 +2,6 @@
 using BankModelTransfer.Mapping;
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 
 namespace BankModelTransfer
 {
@@ -117,7 +116,7 @@ namespace BankModelTransfer
 
             Console.Write("Digite o saldo inicial: R$");
 
-            double entradaSaldo = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double entradaSaldo = double.Parse(Console.ReadLine());
 
             Console.Write("Digite o crédito: R$");
             double entradaCredito = double.Parse(Console.ReadLine());
@@ -151,7 +150,7 @@ namespace BankModelTransfer
         private static string ObterOpcaoUsuario()
         {
             Console.WriteLine();
-            Console.WriteLine("DIO Bank a seu dispor!!!");
+            Console.WriteLine("FFBank a seu dispor!!!");
             Console.WriteLine("Informe a opção desejada:");
 
             Console.WriteLine("1- Listar contas");
